@@ -86,6 +86,9 @@ git commit -a -m "message" 一次完成暂存和提交两个动作。也可写gi
     - git branch -vv
 
 ### push 和 pull
+- push : 把本地仓库的提交推送到远程仓库
+- pull : 把远程仓库的提交拉到本地仓库
+    - git pull <远程主机名> <远程分支名>:<本地分支名> 把远程分支拉取并合并到本地分支
 ## 五、分支
 - 查看分支
     - git branch
