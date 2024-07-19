@@ -25,3 +25,8 @@
 
 ![](./Study/img/CaiNiaoTools.png)
 - [正则表达式学习](https://www.runoob.com/regexp/regexp-tutorial.html)：[在线测试](https://www.jyshare.com/front-end/854/)
+
+- [函数图形绘制在线网站](https://www.desmos.com/calculator?lang=zh-CN)
+
+## 游戏开发的一些算法
+- [游戏开发一些算法](https://www.redblobgames.com/) 2d寻路，光线，道路

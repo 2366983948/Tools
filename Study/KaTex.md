@@ -124,6 +124,12 @@ $$
 
 10. 二项系数
 ```katex
+\binom{n}{k} \qquad
+\mathrm{C}_ n^k \qquad
+\int f_N(x) \stackrel{!}{=}1 \qquad
+\sum_ {i=1}^{n}x_ i \\[3px]
+\int_ {0}^{\frac{\pi}{2}} \qquad
+\prod_\epsilon \\
 ```
 $$
 \binom{n}{k} \qquad
@@ -134,7 +140,80 @@ $$
 \prod_\epsilon \\
 $$
 
-[1](https://blog.csdn.net/bingteng6859/article/details/104886224?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4-104886224-blog-104561781.235^v43^pc_blog_bottom_relevance_base6&spm=1001.2101.3001.4242.3&utm_relevant_index=7)
+11. 数学空格调整
+```katex
+\int\int \\
+\int\!\int
+```
+$$
+\int\int \\
+\int\!\int
+$$
 
+12. 垂直对齐
+```katex
+\begin{array}{cc}
+1 & 2 & 3 
+\end{array}
+```
+```katex
+\mathbf{X} = \left(
+    \begin{array}{}
+    x_{11} & x_{12} & \ldots & x_{1n} \\
+    x_{21} & x_{22} & \ldots & x_{2n} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    x_{m1} & x_{m2} & \ldots & x_{mn}
+    \end{array}
+\right)
+```
+$$
+\mathbf{X} = \left(
+    \begin{array}{}
+    x_{11} & x_{12} & \ldots & x_{1n} \\
+    x_{21} & x_{22} & \ldots & x_{2n} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    x_{m1} & x_{m2} & \ldots & x_{mn}
+    \end{array}
+\right)
+$$
+```katex
+\mathbf{X} = \left\{
+    \begin{array}{}
+    1 & 2 \\
+    a+1  \\
+    \textrm{all day }
+    \end{array}
+\right.
+```
+$$
+\mathbf{X} = \left\{
+    \begin{array}{}
+    1 & 2 & \\
+    a+1  \\
+    \textrm{all day }
+    \end{array}
+\right.
+$$
 
-[2](https://www.bilibili.com/video/BV1nE411n7W8/?spm_id_from=333.337.search-card.all.click&vd_source=aaa6f3193ab47d25ce56900f14dcebe0)
+13. 公式编号
+```katex
+$$
+abcd \tag{1}
+$$
+```
+$$
+abcd \tag{1}
+$$
+
+14. 缩进\quad
+15. 粗体
+$$
+\mu,M \quad \mathbf{M} \quad
+\boldsymbol{M}
+$$
+
+16. 符号大全 [typora-数学符号](https://blog.csdn.net/wait_for_eva/article/details/84307306)
+$$
+\alpha
+$$
+[csdn教学](https://blog.csdn.net/bingteng6859/article/details/104886224?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4-104886224-blog-104561781.235^v43^pc_blog_bottom_relevance_base6&spm=1001.2101.3001.4242.3&utm_relevant_index=7)
